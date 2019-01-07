@@ -1,8 +1,8 @@
-factorial = 5
 #this is your factorial - type in an integer above
-x = 1
-store = 1
-if(x<=factorial){
-store = store * x
-}
-print(store)
+print("Input that number that your want to factorial")
+desired_factorial = int(input())
+
+for i in range(desired_factorial):   
+    desired_factorial =  desired_factorial * i
+
+print(desired_factorial)
