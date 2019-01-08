@@ -1,7 +1,7 @@
 def make_beaver():
 	print("")
 	print("""
-	          .="   "=._.---.
+	  .="   "=._.---.
         ."         c ' Y'`p
        /   ,       `.  w_/
    jgs |   '-.   /     / 
@@ -11,7 +11,7 @@ def make_beaver():
 	
 
    
-number_of_beavers = input("How many dragons? ")
+number_of_beavers = input("How many Beavers? ")
 
 if number_of_beavers > 0:
 	for x in range(0, number_of_beavers):
