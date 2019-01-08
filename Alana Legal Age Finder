@@ -6,6 +6,9 @@ if age != 'quit':
         print("No lotto tickets, No voting, No smoking")
     if age < 21:
         print("No drinking, No renting a car")
+    if age == 21:
+        print("No renting a car")
+        #i added in the age where you can drink, but not rent a car
     if age > 25:
         print("You can do it all!")
 age2 = input("Enter another age or quit:")
