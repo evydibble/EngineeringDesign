@@ -1,20 +1,27 @@
-age = input("Enter your age:")
-print("Or type quit ot quit")
-if age != 'quit':
+Birthstone = str(raw_input("Enter your Birth Month:"))
 
-    if age < 18:
-        print("No lotto tickets, No voting, No smoking")
-    if age < 21:
-        print("No drinking, No renting a car")
-    if age > 25:
-        print("You can do it all!")
-age2 = input("Enter another age or quit:")
-if age2 != 'quit':
-    if age < 18:
-        print("No lotto tickets, No voting, No smoking")
-    if age < 21:
-        print("No drinking, No renting a car")
-    if age > 25:
-        print("You can do it all!")
-while age2 == 'quit':
-    print("bye")
+if Birthstone == 'January':
+    print("Your birthstone is Garnet")
+if Birthstone == 'February':
+    print("Your birthstone is Amethyst")
+if Birthstone == 'March':
+    print("Your birthstone is Aquamarine")
+if Birthstone == 'April':
+    print("Your birthstone is Diamond")
+if Birthstone == 'May':
+    print("Your birthstone is Emerald")
+if Birthstone == 'June':
+    print("Your birthstone is Pearl or Alexandrite")
+if Birthstone == 'July':
+    print("Your birthstone is Ruby")
+if Birthstone == 'August':
+    print("Your birthstone is Peridot")
+if Birthstone == 'September':
+    print("Your birthstone is Sapphire")
+if Birthstone == 'October':
+   print("Your birthstone is Tourmaline or Opal")
+if Birthstone == 'November':
+   print("Your birthstone is Topaz or Citrine")
+if Birthstone == 'December':
+   print("Your birthstone is Tanzanite, Zircon or Turquoise")
+
