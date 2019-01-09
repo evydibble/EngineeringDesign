@@ -2,7 +2,7 @@
 
 import random
 number = random.randint(1,100)
-print("I'm thinking of a number between 1 and 10")
+print("I'm thinking of a number between 1 and 100")
     
 def try_again():
     guess = int(input("What is your guess?"))
