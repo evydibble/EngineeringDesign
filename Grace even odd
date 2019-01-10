@@ -1,8 +1,19 @@
-num = int(input("Even or odd? Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is even".format(num))
-else:
-   print("{0} is odd".format(num))
 
+import os
+
+def grace_code():
+	num = int(input("Even or odd? Enter a number: "))
+	if (num % 2) == 0:
+	   print("{0} is even".format(num))
+	else:
+	   print("{0} is odd".format(num))
+	
+	response = input("Do you want to play again? (y/n)")
+	if response == "y":
+		grace_code()
+	if response == "n":
+		os._exit(0)
+
+grace_code()
  #checks if input number is odd or even
  #divides number by 2, if remainder (% symbol) is zero, it is even. Otherwise, it is odd.
