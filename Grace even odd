@@ -15,5 +15,6 @@ def grace_code():
 		os._exit(0)
 
 grace_code()
- #checks if input number is odd or even
- #divides number by 2, if remainder (% symbol) is zero, it is even. Otherwise, it is odd.
+
+#checks if input number is odd or even
+#divides number by 2, if remainder (% symbol) is zero, it is even. Otherwise, it is odd.
